@@ -88,7 +88,7 @@ en: &DEFAULT_EN
     people:
       - name: "서민우 목사"
         role: "담임목사"
-        image: assets/img/team/Pastor_seo_01.png
+        image: assets/img/team/Pastor_seo.png
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -137,7 +137,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "이메일로 연락주시면, 바로 답장 드리겠습니다!"
+    text: "이메일로 연락주시면, 답장 드리겠습니다!"
     section: contact
     name: "Name*"
     name-validation: "이름을 입력해 주세요."
