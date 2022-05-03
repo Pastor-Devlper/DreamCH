@@ -11,35 +11,47 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 꿈이 있는 교회로 초대합니다!
+    text: 예수님이 이 땅의 꿈입니다.
+    button: 더 알고 싶어요
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "좀 더 알려드려요"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "예배 시간"
+        desc: "주일예배 / 일요일 오전 10:40 ~ 12:00 <br>
+          교회학교 / 일요일 오전 10:00 ~ 10:30 <br>
+          수요예배 / 수요일 오후 19:30 ~ 20:30 <br>
+          온라인헌금 / 농협 352-5454-3251-73"
+        icon: fas fa-place-of-worship #find more at https://fontawesome.com/icons
+      - title: "담임목사: 서민우"
+        desc: "젊은 시절 세종대학교 연극영화과를 졸업하고 대중가수의 길을 걷다, 하나님의 부르심에 순종하여 목원대학교 신학대학원을 졸업하여 목사 안수를 받고 다년 간의 훈련 기간을 거쳐, 2016년 꿈이 있는 교회를 개척하였습니다."
+        icon: fas fa-user-tie
+      - title: "교회 위치"
+        desc: "[대전 서구 도안동 1830]<br>
+          BUS : 급행3, 114, 115 <br>
+          [위치 지도](http://naver.me/5IlzUwRO)"
+        icon: fas fa-search-location
+        # image: assets/img/map_01.png
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "설교영상, 행사사진, 블로그"
     section: portfolio
     closebutton: "Close Project"
 
+  about:
+    title: "About us"
+    text: "우리의 이야기"
+    body: "꿈이 있는 교회는, 이 땅에 예수님의 뜻을 이루어 드리는 교회가 되고 싶습니다. 찬양에 강점이 있는 교회이며, 구성원들이 어린아이 젊은이 중장년 노년에 이르기까지 골고루 구성되어, 누구나 쉽게 어울리고 친해질 수 있는 분위기 입니다."
+    section: about
+
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "교회가 걸어온 길"
+    text: "창립부터 현재까지"
     section: timeline
     # left is the default
     #start_align: "left"
@@ -67,12 +79,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients
