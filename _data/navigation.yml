@@ -11,20 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "간략정보"
       section: services
-    - title: "Portfolio"
+    - title: "Vlog"
       section: portfolio
     - title: "About"
       section: about
-    - title: "Timeline"
+    - title: "지나온길"
       section: timeline
-    - title: "Team"
+    - title: "섬기는이들"
       section: team
-    - title: "Contact"
+    - title: "연락처"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
