@@ -88,7 +88,7 @@ en: &DEFAULT_EN
     people:
       - name: "서민우 목사"
         role: "담임목사"
-        image: assets/img/team/Pastor_seo.png
+        image: assets/img/team/500x500.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -98,7 +98,7 @@ en: &DEFAULT_EN
           #   icon: fab fa-linkedin-in
       - name: "김희영 사모"
         role: ""
-        image: assets/img/team/Mrs_seo.jpeg
+        image: assets/img/team/500x500.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
