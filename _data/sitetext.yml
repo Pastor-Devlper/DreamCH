@@ -13,11 +13,11 @@ en: &DEFAULT_EN
   header:
     title: 꿈이 있는 교회로 초대합니다!
     text: 예수님이 이 땅의 꿈입니다.
-    button: 더 알고 싶어요
+    button: 간략 정보
     buttonlink: "#services"
 
   services:
-    title: "좀 더 알려드려요"
+    title: "교회 정보"
     text: ""
     section: services
     list:
@@ -28,7 +28,7 @@ en: &DEFAULT_EN
           온라인헌금 / 농협 352-5454-3251-73"
         icon: fas fa-place-of-worship #find more at https://fontawesome.com/icons
       - title: "담임목사: 서민우"
-        desc: "젊은 시절 세종대학교 연극영화과를 졸업하고 대중가수의 길을 걷다, 하나님의 부르심에 순종하여 목원대학교 신학대학원을 졸업하여 목사 안수를 받고 다년 간의 훈련 기간을 거쳐, 2016년 꿈이 있는 교회를 개척하였습니다."
+        desc: "젊은 시절 세종대학교 영화예술학과를 졸업하고 대중가수의 길을 걷다, 하나님의 부르심에 순종하여 목원대학교 신학대학원을 졸업하여 목사 안수를 받고 다년 간의 훈련 기간을 거쳐, 2016년 꿈이 있는 교회를 개척하였습니다."
         icon: fas fa-user-tie
       - title: "교회 위치"
         desc: "[대전 서구 도안동 1830]<br>
