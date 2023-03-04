@@ -1,7 +1,7 @@
 ---
 title: Project Name
 subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://res.cloudinary.com/djt4n04dz/image/upload/v1672204854/iqr1sn0nlp2hzblsmwpl.jpg
+image: https://photos.app.goo.gl/q4ztAn5f2zn3ZtqP7
 alt: Keep Exploring
 
 caption:
