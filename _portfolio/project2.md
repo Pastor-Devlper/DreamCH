@@ -1,7 +1,7 @@
 ---
 title: Project Name
 subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://band.us/band/63246256/media/49300615701
+image: assets/img/portfolio/03-full.jpg
 alt: Keep Exploring
 
 caption:
