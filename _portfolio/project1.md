@@ -1,19 +1,16 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: /assets/img/portfolio/02-full.jpg
-alt: Shirts on a hanger
+title: Praise
+subtitle: J-Flow 찬양팀
+image:
+alt: 
+youtubeId: 2FndoD3CiqE
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: /assets/img/portfolio/02-thumbnail.jpg
+  title: 경배와 찬양
+  subtitle: J-Flow 찬양팀
+  thumbnail: https://img.youtube.com/vi/2FndoD3CiqE/hqdefault.jpg
 ---
+{% include youtubePlayer.html id=page.youtubeId %}
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-{:.list-inline}
-
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+#### 주일예배 찬양
+##### (2023년 2월 26일)
