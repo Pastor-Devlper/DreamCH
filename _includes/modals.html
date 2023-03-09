@@ -20,16 +20,18 @@ site.locale != nil %}
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.title }}</h2>
-              <p class="item-intro text-muted">{{ project.subtitle }}</p>
+              <h1 class="text-uppercaser">{{ project.title }}</h1>
+              <h3 class="item-intro text-muted">{{ project.subtitle }}</h3>
               <img
                 class="img-fluid d-block mx-auto"
                 src="{{ project.image }}"
                 alt="{{ project.alt }}"
               />
-              <p>{{ project.content }}</p>
+              <div class="text-left">
+                <p>{{ project.content }}</p>
+              </div>
               <button
-                class="btn btn-primary"
+                class="btn btn-primary text-center"
                 data-dismiss="modal"
                 type="button"
               >
