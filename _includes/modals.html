@@ -22,6 +22,9 @@ site.locale != nil %}
               <!-- Project Details Go Here -->
               <h1 class="text-uppercaser">{{ project.title }}</h1>
               <h3 class="item-intro text-muted">{{ project.subtitle }}</h3>
+              <p class="font-italic text-muted">
+                {{ project.date | date: "%F" }}
+              </p>
               <img
                 class="img-fluid d-block mx-auto"
                 src="{{ project.image }}"
