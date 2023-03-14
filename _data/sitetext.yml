@@ -24,11 +24,32 @@ en: &DEFAULT_EN
     list:
       - title: '예배 시간'
         desc: '
-          • 주 일 예 배 / 일요일 오전 10:40 ~ 12:00<br>
-          • 교 회 학 교 / 일요일 오전 10:00 ~ 10:30<br>
-          • 수 요 예 배 / 수요일 오후 19:30 ~ 20:30<br>
-          • 온라인헌금 / 농협 352-5454-3251-73<br>
-        '
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">예배</th>
+              <th scope="col">시간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>주일</td>
+              <td>10:40~12:00</td>
+            </tr>
+            <tr>
+              <td>교회학교</td>
+              <td>09:30~10:30</td>
+            </tr>
+            <tr>
+              <td>수요일</td>
+              <td>19:40~21:00</td>
+            </tr>
+            <tr>
+              <td>온라인 헌금</td>
+              <td>농협 352-5454-3251-73</td>
+            </tr>
+          </tbody>
+        </table>'
         icon: fas fa-place-of-worship #find more at https://fontawesome.com/icons
       - title: '담임목사: 서민우'
         desc: '젊은 시절 세종대학교 영화예술학과를 졸업하고 대중가수의 길을 걷다, 하나님의 부르심에 순종하여 목원대학교 신학대학원을 졸업하여 목사 안수를 받고 다년 간의 훈련 기간을 거쳐, 2016년 꿈이 있는 교회를 개척하였습니다.'
