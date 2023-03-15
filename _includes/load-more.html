@@ -17,12 +17,9 @@
       role="button">지난 찬양 보기</a>
   </div>
 {% elsif project.category == 'blog' %}
-  <div class="load-more">
-    <a
-      name="load-more"
-      id="load-more"
-      class="btn btn-outline-primary"
-      href="https://www.youtube.com/playlist?list=PLxsE0ePE6qp9M1QcbvZLkl4gE_ABZcnD5"
-      role="button">지난 소식 보기</a>
-  </div>
+  {% for project in site.portfolio reversed %}
+    {% if project.category == 'blog' %}
+      {{ project.subtitle }}<br>
+    {% endif %}
+  {% endfor %}
 {% endif %}
