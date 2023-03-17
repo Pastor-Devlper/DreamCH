@@ -81,6 +81,10 @@
   }
 }
 
+.modal {
+  overflow-y: auto;
+}
+
 .portfolio-modal {
   .modal-dialog {
     margin: 1rem;

@@ -32,18 +32,18 @@ site.locale != nil %}
               />
               <div class="text-left">
                 <p>{{ project.content }}</p>
-                {% include load-more.html %}
               </div>
               <button
-                class="btn btn-primary text-center"
-                data-dismiss="modal"
-                type="button"
+              class="btn btn-primary text-center"
+              data-dismiss="modal"
+              type="button"
               >
-                <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+              <i class="fas fa-times"></i>
+              {{ site.data.sitetext[site.locale].portfolio.closebutton |
                 default: "Close Project" }}
               </button>
             </div>
+            <div class="mt-4 col-8">{% include load-more.html %}</div>
           </div>
         </div>
       </div>
