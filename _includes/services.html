@@ -21,7 +21,7 @@
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}
-            <div class="text-muted">
+            <div class="overflow-auto text-muted">
               {{ service.desc | markdownify }}
             </div>
           {% endif %}
